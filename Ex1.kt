@@ -26,7 +26,6 @@ class YamlParser : Parser {
     }
 }
 
-// 3. Crawler-ul care folosește khttp
 class Crawler(private val url: String) {
 
     fun getResource(): String {
