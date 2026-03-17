@@ -60,7 +60,7 @@ class CinemaBookingService(private val paymentMethod: PaymentMethod){
             println("Bilet cumparat")
             return Ticket(movie, price)
         } else {
-            println("Achiziția biletului a eșuat din cauza plății.")
+            println("Fonduri insuficiente.")
         }
         return null
     }
